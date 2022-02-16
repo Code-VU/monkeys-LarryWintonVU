@@ -19,8 +19,8 @@ def calculateTime():
     #     print("monkey two is NOT smiling")
 
     bWeAreGood = bMonkeyOneIsSmiling ^ bMonkeyTwoIsSmiling
-    if not bWeAreGood:
-        print("Yay! We're going to have a good day!")
+    if bWeAreGood:
+        print("Yay! We're going to have an awesome day!")
     else:
         print("Uh Oh! We're in trouble!")
     # end assignment
