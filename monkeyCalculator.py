@@ -4,6 +4,25 @@ def calculateTime():
     monkey_one = input("Is the first monkey smiling?:  ")
     monkey_two = input("Is the second monkey smiling?: ")
 
+    bMonkeyOneIsSmiling = False
+    bMonkeyTwoIsSmiling = False
+
+    if(monkey_one == 'y' or monkey_one == 'Y'):
+        bMonkeyOneIsSmiling = True
+    #     print("monkey one is smiling")
+    # else:
+    #     print("monkey one is NOT smiling")
+    if(monkey_two == 'y' or monkey_two == 'Y'):
+        bMonkeyTwoIsSmiling = True
+    #     print("monkey two is smiling")
+    # else:
+    #     print("monkey two is NOT smiling")
+
+    bWeAreGood = bMonkeyOneIsSmiling ^ bMonkeyTwoIsSmiling
+    if bWeAreGood:
+        print("Yay! We're going to have a good day!")
+    else:
+        print("Uh Oh! We're in trouble!")
     # end assignment
 
 ## if you want to test locally before you try to sync
