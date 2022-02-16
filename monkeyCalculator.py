@@ -20,7 +20,7 @@ def calculateTime():
 
     bWeAreGood = bMonkeyOneIsSmiling ^ bMonkeyTwoIsSmiling
     if bWeAreGood:
-        print("Yay! We're going to have an awesome day!")
+        print("Yay! We're going to have a good day!")
     else:
         print("Uh Oh! We're in trouble!")
     # end assignment
